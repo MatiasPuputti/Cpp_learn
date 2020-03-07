@@ -4,3 +4,4 @@
 # Except these.
 !*.cpp
 !.gitignore
+!README.md
