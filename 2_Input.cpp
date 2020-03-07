@@ -10,9 +10,12 @@ int main()
 {
     // Declaration of a variable.
     int num;
-    
-    // Initialization of the variable.
-    num = 5;
+
+    //writing a line so that user knows to tell us value.
+    cout << "Give me a number to plave in the num variable: ";
+
+    //Asking for a value to initialize num with.
+    cin >> num;
 
     // Writing a line.
     cout << "The value of the variable num is: " << num << endl;
